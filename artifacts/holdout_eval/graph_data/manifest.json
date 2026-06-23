@@ -1,0 +1,12 @@
+{
+  "summary_json": "artifacts/holdout_eval/summary.json",
+  "predictions_csv": "artifacts/holdout_eval/predictions_all_minutes.csv",
+  "games_evaluated": 551,
+  "outputs": {
+    "summary_metrics": "artifacts/holdout_eval/graph_data/summary_metrics.csv",
+    "summary_metrics_long": "artifacts/holdout_eval/graph_data/summary_metrics_long.csv",
+    "predictions_long": "artifacts/holdout_eval/graph_data/predictions_long.csv",
+    "predictions_checkpoint_long": "artifacts/holdout_eval/graph_data/predictions_checkpoint_long.csv",
+    "prediction_aggregates_by_minute": "artifacts/holdout_eval/graph_data/prediction_aggregates_by_minute.csv"
+  }
+}

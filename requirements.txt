@@ -1,0 +1,12 @@
+requests
+streamlink
+opencv-python
+pytesseract
+flask
+numpy
+scipy
+python-dotenv
+torch
+playwright
+matplotlib
+xgboost

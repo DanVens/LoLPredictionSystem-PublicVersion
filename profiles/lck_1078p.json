@@ -1,0 +1,12 @@
+{
+  "name": "lck_1078p",
+  "base_width": 1918,
+  "base_height": 1078,
+  "rois": {
+    "gold_left":  [0, 0, 0, 0],
+    "gold_right": [0, 0, 0, 0],
+    "time":       [929, 73, 992, 109],
+    "kills_left": [0, 0, 0, 0],
+    "kills_right":[0, 0, 0, 0]
+  }
+}

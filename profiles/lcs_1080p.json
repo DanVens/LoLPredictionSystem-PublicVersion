@@ -1,0 +1,12 @@
+{
+  "name": "lcs_1080p",
+  "anchor_path": "templates/lcs_anchor.png",
+  "anchor_threshold": 0.78,
+  "rois": {
+    "gold_left":  [0, 0, 0, 0],
+    "gold_right": [0, 0, 0, 0],
+    "time":       [0, 0, 0, 0],
+    "kills_left": [0, 0, 0, 0],
+    "kills_right":[0, 0, 0, 0]
+  }
+}

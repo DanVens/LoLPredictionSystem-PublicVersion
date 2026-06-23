@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated logs
+live_prediction_logs/
+replay_prediction_logs/
+
+# Heavy data — too large for git, regenerated via build scripts
+data/*
+!data/testing_data/
+!data/sequence_dataset.npz
+!data/sequence_dataset.json
+
+# Secrets / local env
+.env
+.venv/
+
+# OS/editor
+.DS_Store
+*Zone.Identifier
