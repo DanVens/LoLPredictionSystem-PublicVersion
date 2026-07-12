@@ -1,4 +1,4 @@
-## `About this project
+## About this project
 
 This repository contains the ML research components of a League of Legends professional match outcome prediction system, built as a bachelor's thesis project at Vilnius University (2025–2026).
 
