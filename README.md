@@ -1,3 +1,20 @@
+## About this project
+
+This repository contains the ML research components of a League of Legends professional match outcome prediction system, built as a bachelor's thesis project at Vilnius University (2025–2026).
+
+The system predicts win probability from live in-game state using a four-model ensemble:
+
+| Model | ROC-AUC | Accuracy | Calibration (ECE) |
+|---|---|---|---|
+| Logistic Regression | 0.826 | 73.7% | 0.019 |
+| XGBoost | 0.826 | 73.8% | 0.011 |
+| MLP (PyTorch) | 0.824 | 73.4% | 0.011 |
+| GRU (PyTorch) | 0.807 | 71.9% | 0.022 |
+| **Ensemble** | **0.831** | **74.4%** | **0.013** |
+
+All results are measured on a leakage-free chronological hold-out of ~1,782 professional games the models never saw during training.
+
+**Stack:** Python, PyTorch, XGBoost, Flask, Playwright, scikit-learn
 # `university_exports` usage instructions
 
 > This repository contains the prediction/ML research components of a
